@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hw4.DataController">
+    <children>
+        <AnchorPane layoutY="100.0" prefHeight="300.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <cursor>
+                <Cursor fx:constant="TEXT" />
+            </cursor>
+            <children>
+                <Label layoutX="272.0" layoutY="39.0" text="Thank you! " textFill="#151515">
+                    <font>
+                        <Font name="Freestyle Script" size="48.0" />
+                    </font>
+                </Label>
+            <Label layoutX="239.0" layoutY="116.0" text="Your data entered" textFill="#151515">
+               <font>
+                  <Font name="Freestyle Script" size="48.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="ImageButtonData" fitHeight="150.0" fitWidth="145.0" layoutX="264.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/Данные.jpg" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="257.0" layoutY="14.0" text="BarmaBank" textFill="#fcf9f9">
+            <font>
+                <Font name="Freestyle Script" size="68.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
